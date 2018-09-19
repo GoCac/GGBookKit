@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		395A424A2151E5460084ED8D /* pod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 395A42492151E5460084ED8D /* pod.jpg */; };
+		395A42862151E6BA0084ED8D /* GGBookKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 395A42852151E6BA0084ED8D /* GGBookKit.podspec */; };
 		39BB2ACD20871CCB00CB884D /* GGBookKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BB2AC320871CCA00CB884D /* GGBookKit.framework */; };
 		39BB2AD220871CCB00CB884D /* GGBookKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB2AD120871CCB00CB884D /* GGBookKitTests.swift */; };
 		39BB2AD420871CCB00CB884D /* GGBookKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 39BB2AC620871CCB00CB884D /* GGBookKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		395A42492151E5460084ED8D /* pod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pod.jpg; sourceTree = "<group>"; };
+		395A42852151E6BA0084ED8D /* GGBookKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GGBookKit.podspec; sourceTree = "<group>"; };
 		39BB2AC320871CCA00CB884D /* GGBookKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GGBookKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39BB2AC620871CCB00CB884D /* GGBookKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGBookKit.h; sourceTree = "<group>"; };
 		39BB2AC720871CCB00CB884D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +61,7 @@
 		39BB2AB920871CCA00CB884D = {
 			isa = PBXGroup;
 			children = (
+				395A42852151E6BA0084ED8D /* GGBookKit.podspec */,
 				39BB2AC520871CCA00CB884D /* GGBookKit */,
 				39BB2AD020871CCB00CB884D /* GGBookKitTests */,
 				39BB2AC420871CCA00CB884D /* Products */,
@@ -96,6 +101,7 @@
 			children = (
 				39BB2ADE20871DFF00CB884D /* SomethingController.xib */,
 				39BB2ADF20871DFF00CB884D /* SomethingController.swift */,
+				395A42492151E5460084ED8D /* pod.jpg */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -192,6 +198,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				39BB2AE020871DFF00CB884D /* SomethingController.xib in Resources */,
+				395A42862151E6BA0084ED8D /* GGBookKit.podspec in Resources */,
+				395A424A2151E5460084ED8D /* pod.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
