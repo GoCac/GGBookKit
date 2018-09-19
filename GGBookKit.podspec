@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GGBookKit"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "哈哈哈哈哈"
 
   # This description is used to generate tags and improve search results.
@@ -73,7 +73,7 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-
+  s.static_framework = true
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Specify the location from where the source should be retrieved.
